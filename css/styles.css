@@ -124,10 +124,6 @@ img {
   gap: 40px;
 }
 
-.contacts-item {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .contacts-link {
   font-size: 16px;
   line-height: 1.5;
@@ -135,6 +131,7 @@ img {
   color: #434455;
   display: block;
   gap: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .page-hero-background {
@@ -349,6 +346,10 @@ img {
   fill: #f4f4fd;
 }
 
+.team-link-href {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .team-landing {
   font-weight: 400;
   font-size: 16px;
@@ -430,9 +431,7 @@ img {
   height: 100%;
   width: 100%;
   transform: translateY(100%); /* Ukryj poza widocznym obszarem początkowo */
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   visibility: hidden;
   opacity: 0;
 }
@@ -544,11 +543,11 @@ img {
   justify-content: center;
 }
 
-.footer-icons-li:hover {
+.team-social-link-footer:hover {
   background-color: #31d0aa;
 }
 
-.footer-icons-li:focus {
+.team-social-link-footer:focus {
   background-color: #31d0aa;
 }
 
