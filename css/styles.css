@@ -481,7 +481,7 @@ img {
 
 .footer-main {
   display: flex;
-  align-items: baselin;
+  align-items: baseline;
 }
 
 .footer-logo-div {
@@ -532,6 +532,11 @@ img {
 .footer-icons-li {
   width: 40px;
   height: 40px;
+}
+
+.team-social-link-footer {
+  height: 100%;
+  width: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
@@ -549,4 +554,8 @@ img {
 
 .footer-icons {
   fill: #f4f4fd;
+}
+
+.footer-icons-href {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
