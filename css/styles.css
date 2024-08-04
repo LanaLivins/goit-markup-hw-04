@@ -479,6 +479,15 @@ img {
   padding: 100px 0;
 }
 
+.footer-main {
+  display: flex;
+  align-items: baselin;
+}
+
+.footer-logo-div {
+  margin-right: 120px;
+}
+
 .footer-text {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -504,4 +513,40 @@ img {
 
 .footer-logo .footer-logo-part {
   color: #f4f4fd;
+}
+
+.footer-icons-p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-icons-ul {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-icons-li {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-icons-li:hover {
+  background-color: #31d0aa;
+}
+
+.footer-icons-li:focus {
+  background-color: #31d0aa;
+}
+
+.footer-icons {
+  fill: #f4f4fd;
 }
